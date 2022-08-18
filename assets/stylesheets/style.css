@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+}
+
+section{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 20px;
+}
+/*---------------------------------------------------------------------------*/
+/*------------------------------------*/
+.section1{
+    background-image: url(../img/section1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(50, 189, 0);
+    text-shadow: 1px 2px 3px black;
+}
+
+.tel{
+    border: solid 2px white;
+}
+
+h4{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.box{
+    border: 2px solid white;
+    transition: 0.25s ease;
+    background-color: black;
+    margin: 10px;
+    width: 645px;
+    height: 125px;
+    text-align: center;
+}
+
+.message{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px black;
+}
+
+
+/*---------------------------------------------------------------------------*/
+.section2{
+    background-image: url(../img/section2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.pillule{
+    border: solid 2px white;
+}
+
+.span-blue{
+    color: rgb(86, 86, 230);
+}
+
+.span-red{
+    color: red;
+}
+
+.message2{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px black;
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+
+.section3{
+    background-image: url(../img/section3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.reveil{
+    border: solid 2px white;
+}
+
+.message3{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px black;
+    background-color: black;
+    border: solid 2px white;
+}
+
+/*---------------------------------------------------------------------------*/
+.section4{
+    background-image: url(../img/section4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.initiation{
+    border: solid 2px white;
+}
+
+.message4{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px black;
+    background-color: black;
+    border: solid 2px white;
+}
+
+/*---------------------------------------------------------------------------*/
+.section5{
+    background-image: url(../img/section5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.combat{
+    border: solid 2px white;
+    margin-left: 40px;
+}
+
+/*---------------------------------------------------------------------------*/
+.section6{
+    background-image: url(../img/section6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+
+.fin{
+    border: solid 2px white;
+    margin-left: 100px;
+}
+
+
+
+
